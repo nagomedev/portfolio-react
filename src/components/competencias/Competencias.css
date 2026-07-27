@@ -1,0 +1,83 @@
+.competencias {
+    scroll-margin-top: 80px;
+    background-color: #282c34;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.competencias-subtitulo {
+    font-size: calc(8px + 1vmin);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #61dafb;
+    margin: 2rem 0 1.5rem 0;
+}
+
+.competencias-subtitulo:first-of-type {
+    margin-top: 0;
+}
+
+/* --- Competencias profesionales (pills) --- */
+
+.list-competencias {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    max-width: 700px;
+}
+
+.list-competencia {
+    font-size: calc(8px + 0.8vmin);
+    color: #ffffff;
+    background-color: #3a3f4b;
+    border: 1px solid #4a4f5b;
+    border-radius: 999px;
+    padding: 0.5rem 1.1rem;
+    margin: 0;
+}
+
+/* --- Otros varios --- */
+
+.list-otros {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 700px;
+}
+
+.otros-titulo {
+    display: block;
+    font-size: calc(8px + 0.85vmin);
+    font-weight: 600;
+    color: #61dafb;
+    margin-bottom: 0.5rem;
+}
+
+.otros-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.otros-items li {
+    font-size: calc(8px + 0.8vmin);
+    color: #e0e0e0;
+}

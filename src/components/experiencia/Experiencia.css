@@ -1,0 +1,52 @@
+.experiencia {
+    scroll-margin-top: 80px;
+    background-color: #ffffff;
+    color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.experiencia::before {
+    content: "Experiencia profesional";
+    display: block;
+    font-size: calc(8px + 1vmin);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #61dafb;
+    margin-bottom: 1.5rem;
+}
+
+.experiencia h3 {
+    font-size: calc(10px + 1.4vmin);
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+}
+
+.experiencia>p {
+    font-size: calc(8px + 0.9vmin);
+    color: #5a5f6a;
+    margin: 0 0 2rem 0;
+}
+
+.experiencia ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    max-width: 600px;
+}
+
+.experiencia li {
+    font-size: calc(8px + 0.9vmin);
+    line-height: 1.5;
+    color: #3a3f4b;
+}

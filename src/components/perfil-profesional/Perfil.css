@@ -1,0 +1,30 @@
+.perfil-profesional {
+    scroll-margin-top: 80px;
+    background-color: #ffffff;
+    color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.perfil-profesional::before {
+    content: "Perfil profesional";
+    display: block;
+    font-size: calc(8px + 1vmin);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #61dafb;
+    margin-bottom: 1.5rem;
+}
+
+.perfil-profesional p {
+    font-size: calc(10px + 1vmin);
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0;
+}
